@@ -1,0 +1,10 @@
+# environment.yml
+name: Dockerfile
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+    - pandas=2.2.2
+    - pandera=0.20.4
+    - python=3.11
+   
